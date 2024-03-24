@@ -1,0 +1,51 @@
+.nav-container {
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    padding: 10px 70px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Vasir Bold";
+    font-size: 40px;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav-link > li > a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.nav-link > li > a:hover {
+    color: #FBC02D;
+}
+
+img {
+    width: 40px;
+}
+
+.nav-begin-btn {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #FBC02D;
+    padding: 6px 20px;
+    border-radius: 5px;
+}

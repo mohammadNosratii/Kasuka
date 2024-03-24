@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Vasir Light";
+    src: url(../../assets/fonts/Vazir-Light.ttf);
+}
+
+@font-face {
+    font-family: "Vasir Bold";
+    src: url(../../assets/fonts/Vazir-Bold.ttf);
+}
+
+.container {
+    padding: 0px 70px;
+    font-family: "Vasir Light";
+}
