@@ -5,7 +5,7 @@ import Header from '../../components/Templates/Home/Header/Header';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='container' dir='rtl'>
       <NavBar />
       <Header />
     </div>

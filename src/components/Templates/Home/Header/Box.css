@@ -1,0 +1,27 @@
+.box-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 40px;
+    border-radius: 5px;
+    font-family: "Vasir Bold";
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.box-wrapper:hover {
+    border-color: #ffc451;
+}
+
+.box-wrapper > a {
+    text-decoration: none;
+    color: white;
+}
+
+.box-icon {
+    width: 30px;
+}
