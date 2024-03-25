@@ -2,19 +2,21 @@ import "./Navbar.css";
 import Logo from "../../../assets/images/logo.png"
 import ChevronDown from "../../../assets/icons/ChevronDown"
 import ChevronLeft from "../../../assets/icons/ChevronLeft";
+import Bars3 from "../../../assets/icons/Bars3";
 
 
 export default function NavBar() {
   return (
-    <div className="nav-container">
-      <h1>
+    <div className="nav-container flex justify-between items-center py-2.5 px-3 md:px-5 lg:px-16">
+      <Bars3 />
+      <h1 className="text-xl lg:text-2xl xl:text-3xl">
         <a className="nav-logo" href="#">
-          <img className="logo" src={Logo} alt="" />
+          <img className="w-8 h-8 md:w-14 md:h-14" src={Logo} alt="" />
           KASUKA
         </a>
       </h1>
-      <nav>
-        <ul className="nav-link">
+      <nav className="hidden md:block">
+        <ul className="nav-link flex items-center gap-4 md:gap-x-6 lg:gap-x-8 text-sm lg:text-lg 2xl:text-2xl">
           <li>
             <a href="">خانه</a>
           </li>

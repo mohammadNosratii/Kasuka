@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .container {
+        max-width: 100%;
+    }
+}
+
 @font-face {
     font-family: "Vasir Light";
     src: url(../../assets/fonts/Vazir-Light.ttf);
@@ -14,4 +20,5 @@
 
 .container {
     font-family: "Vasir Light";
+    width: 100%;
 }

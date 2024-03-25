@@ -1,13 +1,9 @@
 .nav-container {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     margin: 0px auto;
-    padding: 10px 70px;
     background: rgba(0, 0, 0, 0.8);
 }
 
@@ -17,13 +13,9 @@
     text-decoration: none;
     color: white;
     font-family: "Vasir Bold";
-    font-size: 40px;
 }
 
 .nav-link {
-    display: flex;
-    align-items: center;
-    gap: 30px;
     list-style-type: none;
 }
 
@@ -41,10 +33,6 @@
 
 .nav-link > li > a:hover {
     color: #ffc451;
-}
-
-img {
-    width: 40px;
 }
 
 .nav-begin-btn {
