@@ -8,6 +8,12 @@ module.exports = {
     extend: {
       colors: {
         "orange-10": "#ffc451"
+      },
+      fontFamily: {
+        "VasirBold": ["Vasir Bold"]
+      },
+      screens: {
+        mid: "992px"
       }
     },
   },

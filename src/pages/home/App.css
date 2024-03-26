@@ -3,22 +3,24 @@
 @tailwind utilities;
 
 @layer components {
-    .container {
-        max-width: 100%;
-    }
+  .container {
+    max-width: 100%;
+  }
 }
 
-@font-face {
+@layer base {
+  @font-face {
     font-family: "Vasir Light";
     src: url(../../assets/fonts/Vazir-Light.ttf);
-}
+  }
 
-@font-face {
+  @font-face {
     font-family: "Vasir Bold";
     src: url(../../assets/fonts/Vazir-Bold.ttf);
+  }
 }
 
 .container {
-    font-family: "Vasir Light";
-    width: 100%;
+  font-family: "Vasir Light";
+  width: 100%;
 }

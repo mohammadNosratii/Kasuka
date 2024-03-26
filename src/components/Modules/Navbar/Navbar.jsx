@@ -7,7 +7,7 @@ import Bars3 from "../../../assets/icons/Bars3";
 
 export default function NavBar() {
   return (
-    <div className="nav-container flex justify-between items-center py-2.5 px-3 md:px-5 lg:px-16">
+    <div className="nav-container flex justify-between items-center py-2.5 px-3 md:px-5 lg:px-16 2xl:px-80">
       <Bars3 />
       <h1 className="text-xl lg:text-2xl xl:text-3xl">
         <a className="nav-logo" href="#">
@@ -37,14 +37,14 @@ export default function NavBar() {
               <span className="group-hover:text-orange-10">لیست کشویی</span>
               <ChevronDown />
             </a>
-            <ul className="invisible opacity-0 group-hover:visible flex flex-col justify-evenly group-hover:opacity-100 transition-all duration-300 delay-75 absolute top-full right-3 w-52 h-56 bg-white rounded-lg p-3 child:p-2 child:transition-all child:duration-300 child:rounded-md">
+            <ul className="invisible opacity-0 group-hover:visible flex flex-col justify-evenly group-hover:opacity-100 transition-all duration-300 delay-75 absolute top-full right-3 w-52 h-60 bg-white rounded-lg p-3 child:p-2 child:transition-all child:duration-300 child:rounded-md shadow-2xl shadow-slate-900">
               <li className="hover:bg-orange-10"><a href="">لیست کشویی ۱</a></li>
               <li className="hover:bg-orange-10 list-menu-wrapper relative">
                 <a className="flex items-center justify-between" href="">
                 <span>لیست کشویی عمیق</span>
                 <ChevronLeft />
                 </a>
-                <ul className="list-menu invisible opacity-0 flex flex-col justify-evenly group-hover:opacity-100 transition-all duration-300 delay-75 absolute top-full -right-[119%] w-52 h-56 bg-white rounded-lg p-3 child:p-2 child:transition-all child:duration-300 child:rounded-md shadow-lg">
+                <ul className="list-menu invisible opacity-0 flex flex-col justify-evenly group-hover:opacity-100 transition-all duration-300 delay-75 absolute top-full -right-[119%] w-52 h-60 bg-white rounded-lg p-3 child:p-2 child:transition-all child:duration-300 child:rounded-md shadow-2xl shadow-slate-900">
                   <li className="hover:bg-orange-10"><a href="">لیست کشویی عمیق ۱</a></li>
                   <li className="hover:bg-orange-10"><a href="">لیست کشویی عمیق ۲</a></li>
                   <li className="hover:bg-orange-10"><a href="">لیست کشویی عمیق ۳</a></li>

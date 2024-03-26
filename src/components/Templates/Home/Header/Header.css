@@ -6,7 +6,6 @@
 
 .header-container {
     width: 100%;
-    height: auto;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(../../../../assets/images/hero-bg.jpg);
     background-size: cover;
     background-position:center ;
@@ -17,6 +16,10 @@
     color: white;
     text-align: center;
     font-family: "Vasir Bold";
+}
+
+.header-title > h1 {
+    line-height: 1.4;
 }
 
 .header-title > h1 > span {
