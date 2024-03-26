@@ -7,7 +7,7 @@ import Bars3 from "../../../assets/icons/Bars3";
 
 export default function NavBar() {
   return (
-    <div className="nav-container flex justify-between items-center py-2.5 px-3 md:px-5 lg:px-16 2xl:px-80">
+    <div className="nav-container z-50 flex justify-between items-center py-2.5 px-3 md:px-5 lg:px-16 2xl:px-80">
       <Bars3 />
       <h1 className="text-xl lg:text-2xl xl:text-3xl">
         <a className="nav-logo" href="#">

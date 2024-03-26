@@ -1,5 +1,6 @@
 import AboutImg from "../../../../assets/images/about.jpg";
 import PaginationSlider from "../../../Modules/Sliders/PaginationSlider";
+import Features from "./Features";
 
 export default function AboutUs() {
   return (
@@ -72,6 +73,7 @@ export default function AboutUs() {
         />
       </div>
       <PaginationSlider />
+      <Features />
     </div>
   );
 }

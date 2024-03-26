@@ -24,13 +24,31 @@ export default function PaginationSlider() {
   return (
     <>
       <Swiper
-        slidesPerView={6}
-        spaceBetween={120}
+        slidesPerView={2}
+        spaceBetween={20}
         pagination={{
-        clickable: true,
+          clickable: true,
+        }}
+        breakpoints={{
+          540: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 100,
+          },
+          1024: {
+            slidesPerView: 6,
+            spaceBetween: 120,
+          },
         }}
         modules={[Pagination]}
-        className="mySwiper my-28 child:cursor-pointer"
+        className="mySwiper my-20"
       >
         <SwiperSlide><img className='opacity-50 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-300' src={Client1} alt="" /></SwiperSlide>
         <SwiperSlide><img className='opacity-50 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-300' src={Client2} alt="" /></SwiperSlide>
