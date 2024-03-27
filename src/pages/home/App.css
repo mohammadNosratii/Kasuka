@@ -6,6 +6,14 @@
   .container {
     max-width: 100%;
   }
+  .ourservices-bg-img {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../../assets/images/cta-bg.jpg);
+      background-position:center;
+    background-size: cover;
+    height: auto;
+    @apply mb-32 text-white flex flex-col justify-center items-center px-6 py-16 lg:px-12 xl:px-16 2xl:px-80 2xl:py-24 gap-y-5 2xl:gap-y-8
+  }
 }
 
 @layer base {

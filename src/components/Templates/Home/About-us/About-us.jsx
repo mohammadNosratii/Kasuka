@@ -4,7 +4,7 @@ import Features from "./Features";
 
 export default function AboutUs() {
   return (
-    <div className="px-3 md:px-8 lg:px-16">
+    <div className="px-3 md:px-8 lg:px-16 2xl:px-80">
       <div className="flex flex-col-reverse mid:flex-row items-center mid:items-start justify-center gap-x-8 mt-14  text-justify">
         <div className="space-y-5 mt-10 md:mt-2 2xl:max-w-[620px]">
           <h1 className="text-[28px] md:text-3xl font-VasirBold">

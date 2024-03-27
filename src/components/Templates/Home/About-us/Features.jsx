@@ -8,7 +8,7 @@ export default function Features() {
   return (
     <div className="grid lg:grid-cols-2 gap-x-8 gap-y-10 mb-32">
       <div>
-        <img className='lg:h-[400px]' src={Feature} alt="" />
+        <img className='lg:h-[400px] w-full' src={Feature} alt="" />
       </div>
       <div className="flex flex-col justify-between gap-y-8 lg:gap-y-6">
         <div className="flex items-center gap-x-3">
