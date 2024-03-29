@@ -12,7 +12,13 @@
       background-position:center;
     background-size: cover;
     height: auto;
-    @apply mb-32 text-white flex flex-col justify-center items-center px-6 py-16 lg:px-12 xl:px-16 2xl:px-80 2xl:py-24 gap-y-5 2xl:gap-y-8
+    @apply my-20 text-white flex flex-col justify-center items-center px-6 py-16 lg:px-12 xl:px-16 2xl:px-80 2xl:py-24 gap-y-5 2xl:gap-y-8
+  }
+  .testimonials {
+    background:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/testimonials-bg.jpg);
+    height: auto;
+    background-position:center;
+    background-size: cover;
   }
 }
 
